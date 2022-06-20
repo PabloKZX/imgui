@@ -25,6 +25,9 @@ project "ImGui"
     filter "system:windows"
         systemversion "latest"
 
+    filter "system:macosx"
+        systemversion "11.3"
+
     filter "configurations:Debug"
         runtime "Debug"
         symbols "on"
